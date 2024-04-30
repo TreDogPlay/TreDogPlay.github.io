@@ -308,7 +308,7 @@ html{
 /* Se agregaran las clases dinamicamente mediante javascript */
 .skills .skill .autoCAD{
     width: 0;
-    animation: 2s AutoCAD forwards;
+    animation: 2s autoCAD forwards;
 }
 @keyframes autoCAD {
     0%{width: 0%;}
@@ -317,34 +317,34 @@ html{
 
 .skills .skill .gestionEmpresarial{
     width: 0;
-    animation: 2s Gestion Empresarial forwards;
+    animation: 2s gestionEmpresarial forwards;
 }
 
-@keyframes gestionEmpresarial {
+@keyframes gestionEmpresarial{
     0%{width: 0%;}
     100%{width: 89%;}
 }
 .skills .skill .gestionProyectos{
     width: 0;
-    animation: 2s Gestion de proyectos forwards;
+    animation: 2s gestionProyectos forwards;
 }
-@keyframes gestionProyectos {
+@keyframes gestionProyectos{
     0%{width: 0%;}
     100%{width: 85%;}
 }
 
 .skills .skill .habilidadesdibujo{
     width: 0;
-    animation: 2s Habilidades de dibujo forwards;
+    animation: 2s habilidadesdibujo forwards;
 }
-@keyframes habilidadesdibujo {
+@keyframes habilidadesdibujo{
     0%{width: 0%;}
     100%{width: 90%;}
 }
 
 .skills .skill .adaptabilidad{
     width: 0;
-    animation: 2s Adaptabilidad forwards;
+    animation: 2s adaptabilidad forwards;
 }
 @keyframes adaptabilidad {
     0%{width: 0%;}
@@ -353,12 +353,61 @@ html{
 
 .skills .skill .renderizado{
     width: 0;
-    animation: 2s Renderizado forwards;
+    animation: 2s renderizado forwards;
 }
 @keyframes renderizado {
     0%{width: 0%;}
     100%{width: 90%;}
 }
+
+.skills .skill .comunicacion{
+    width: 0;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .equipo{
+    width: 0;
+    animation: 2s equipo forwards;
+}
+@keyframes equipo {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .creatividad{
+    width: 0;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad {
+    0%{width: 0%;}
+    100%{width: 99%;}
+}
+
+.skills .skill .dedicacion{
+    width: 0;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .critico{
+    width: 0;
+    animation: 2s critico forwards;
+}
+@keyframes critico {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+
+
+
 
 /* Seccion curriculum */
 .curriculum{
@@ -533,8 +582,7 @@ html{
 }
 
 /* SECCION CONTACTO */
-.contacto{
-    background-image: url(img/);
+/* .contacto{
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
@@ -616,6 +664,7 @@ html{
     display: inline-block;
     margin-right: 20px;
 }
+*/
 footer{
     background-color: #252A2E;
     color: #fff;

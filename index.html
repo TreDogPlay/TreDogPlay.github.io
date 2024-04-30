@@ -16,15 +16,15 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#sobremi">Sobre Nosotros</a></li>
-                    <li><a href="#skills">Habilidades</a></li>
-                    <li><a href="#curriculum">Curriculum</a></li>
-                    <li><a href="#portfolio">Portafolio</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Nosotros</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portafolio</a></li>
+                    <!-- <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li> -->
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -39,11 +39,11 @@
             <h1>ARQ + DISEÑO</h1>
             <h2>Despacho arquitectonico - Expertos en construccion</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-skype"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100066859051017" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.skype.com/es/" target="_blank"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.19001150288_asid.143806640876_crid.694479389938_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.1010150" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/arqdis2022/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
     </section>
@@ -103,7 +103,7 @@
                     </div>
                 </div>
             </div>
-            <button>
+            <button id="descargarCV">
                 Descargar CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
             </button>
@@ -349,24 +349,24 @@
     </section>
 
         <!-- SECCION CONTACTO -->
-        <section id="contacto" class="contacto">
+        <!-- <section id="contacto" class="contacto">
             <div class="contenido-seccion">
-                <h2>CONTACTO</h2>
+                <h2>Contacto</h2>
                 <div class="fila">
-                    <!-- Formulario -->
-                    <div class="col">
-                        <input type="text" placeholder="Tú Nombre">
+                    <-- Formulario -->
+                    <!-- <div class="col">
+                        <input type="text" placeholder="Tu Nombre">
                         <input type="text" placeholder="Número telefónico">
                         <input type="text" placeholder="Dirección de correo">
-                        <input type="text" placeholder="Tema">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <-- <input type="text" placeholder="Tema"> -->
+                        <!-- <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                         <button>
                             Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                             <span class="overlay"></span>
                         </button>
-                    </div>
+                    </div> -->
                     <!-- Mapa -->
-                    <div class="col">
+                    <!-- <div class="col">
                         <img src="img/ubi.png" alt="">
                         <div class="info">
                             <ul>
@@ -387,7 +387,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     
         <!-- footer -->
         <footer>
@@ -395,11 +395,11 @@
                 <i class="fa-solid fa-angles-up"></i>
             </a>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-skype"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100066859051017" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.skype.com/es/" target="_blank"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.19001150288_asid.143806640876_crid.694479389938_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.1010150" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/arqdis2022/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </footer>
     
