@@ -52,7 +52,7 @@ html{
 }
 
 .contenedor-header header nav ul li a:hover{
-   color: #b86614;
+    color: #b86614;
 }
 
 .nav-responsive{
@@ -67,7 +67,7 @@ html{
 /*Seccion inicio*/
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    url(img/fondoprogramacion.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -589,6 +589,33 @@ html{
     margin-bottom: 0px;
 }
 
+.imagen-trabajo {
+    width: 70%; /* Ajusta la imagen al ancho del contenedor padre */
+    height: auto; /* Mantén la proporción de la imagen */
+    margin-top: 10px; /* Espacio superior */
+    margin-bottom: 10px; /* Espacio inferior */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    border-radius: 5px;
+}
+
+.imagenes-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.imagenes-containerlab {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagen-estudio {
+    width: 48%; /* Cada imagen ocupa el 48% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    border-radius: 5px; /* Bordes redondeados */
+}
 /* SECCION CONTACTO */
 /* .contacto{
     background-color: #1e2326;
@@ -673,6 +700,8 @@ html{
     margin-right: 20px;
 }
 */
+
+
 footer{
     background-color: #252A2E;
     color: #fff;
