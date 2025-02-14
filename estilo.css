@@ -529,6 +529,93 @@ html{
     bottom: 4px;
 }
 
+/* Estilos generales del formulario */
+.formulario {
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario .contenido-formulario {
+    max-width: 600px;
+    width: 100%;
+    background-color: #2b2f32;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.formulario h2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para los grupos de formularios */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #b86614;
+    outline: none;
+}
+
+/* Estilos del botón */
+.btn-submit {
+    padding: 12px 20px;
+    background-color: #b86614;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #b86614;
+}
+
+/* Estilos responsivos */
+/* @media (max-width: 768px) {
+    .formulario {
+        padding: 30px 15px;
+    } */
+
+    .formulario .contenido-formulario {
+        padding: 20px;
+    }
+
+
+
 /* seccion portfolio */
 .portfolio{
     background-color: #252A2E;
@@ -809,4 +896,85 @@ footer .arriba{
         width: 100%;
     }
 }
+
+/* Sección de Proyectos */
+.proyectos {
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.proyectos .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.proyectos h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    padding: 20px 0;
+}
+
+.proyectos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.proyecto {
+    background-color: #1e2326;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.proyecto:hover {
+    transform: scale(1.05);
+}
+
+.proyecto img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.proyecto h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.proyecto p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.btn-proyecto {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #b86614;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-proyecto:hover {
+    background-color: #d98024;
+}
+
+/* Responsive para móviles */
+@media screen and (max-width: 900px) {
+    .proyectos-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 

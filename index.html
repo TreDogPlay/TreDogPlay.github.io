@@ -23,6 +23,9 @@
                     <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
                     <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#proyectos" onclick="seleccionar()">Proyectos</a></li>
+                    <li><a href="#formulario" onclick="seleccionar()">Formulario</a></li>
+                    
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -37,7 +40,7 @@
             <div class="contenedor-img">
                 <img src="IMG/Foto Curriculum.jpg" alt="">
             </div>
-            <h1>Martin Aguilar</h1>
+            <h1>Martin Aguilar Valencia</h1>
             <h2>Estudiante en Ingenieria en Software</h2>
             <div class="redes">
                 <a href="https://www.facebook.com/profile.php?id=100004879218154" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -52,7 +55,7 @@
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>¿Quién soy?</h2>
-            <p><span>Soy Martin Aguilar</span> estudiante de la Universidad Politécnica de Quintana Roo, actualmente avanzando en el sexto cuatrimestre de mi carrera en Ingeniería en Software. Mi objetivo principal es aplicar mis conocimientos en proyectos reales, buscando así crecer profesionalmente y contribuir al mundo de la tecnología. <br> Estoy dispuesto a aprender lo que sea necesario y aceptar nuevos retos, ya que si algo no lo sé, lo investigo y lo domino. Enfrento desafíos con entusiasmo, creyendo firmemente que superar obstáculos es una oportunidad para crecer profesionalmente.</p>
+            <p><span>Soy Martin Aguilar</span> estudiante de la Universidad Politécnica de Quintana Roo, actualmente avanzando en el septimo cuatrimestre de mi carrera en Ingeniería en Software. Mi objetivo principal es aplicar mis conocimientos en proyectos reales, buscando así crecer profesionalmente y contribuir al mundo de la tecnología. <br> Estoy dispuesto a aprender lo que sea necesario y aceptar nuevos retos, ya que si algo no lo sé, lo investigo y lo domino. Enfrento desafíos con entusiasmo, creyendo firmemente que superar obstáculos es una oportunidad para crecer profesionalmente.</p>
             <div class="objetivo" id="objetivo">
                 <h2>Objetivo principal</h2>
             <p>Busco aprovechar al máximo mi educación en Ingeniería en Software para desarrollar soluciones innovadoras y eficientes en el campo de la tecnología. Estoy comprometido a aplicar mis habilidades técnicas y conocimientos adquiridos en la universidad para contribuir al desarrollo de proyectos que generen un impacto positivo en la sociedad y me permitan crecer profesionalmente en un entorno dinámico y desafiante</p>
@@ -285,7 +288,64 @@
             </div>
         </div>
     </section>
+
+    <!-- Nueva Sección de Proyectos -->
+    <section id="proyectos" class="proyectos">
+        <div class="contenido-seccion">
+            <h2>Proyectos</h2>
+            <div class="proyectos-container">
+                <div class="proyecto">
+                    <img src="IMG/cap1.png" alt="Proyecto 1">
+                    <h3>Sweet Travel Cancun</h3>
+                    <p>Participé en la elaboración de la página web de Sweet Travel Cancun, una plataforma dedicada a ofrecer experiencias turísticas inolvidables en el Caribe Mexicano.</p>
+                    <a href="https://sweet-travelcancun.com" class="btn-proyecto" target="_blank">Ver Proyecto</a>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG/Cap2.png" alt="Proyecto 2">
+                    <h3>Holly Travel</h3>
+                    <p>Contribuí en el diseño y la estructura en Figma de Holly Travel, una plataforma enfocada en ofrecer experiencias de viaje personalizadas. Participé en la creación de la interfaz y la organización visual para mejorar la experiencia del usuario y la navegación del sitio.</p>
+                    <a href="https://www.figma.com/proto/Wr1BW1Sykn2rrW2YA0fnXj/Holy-Travel?node-id=864-4037&t=YqG3mw8P7nco31CS-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=102%3A2" class="btn-proyecto" target="_blank">Ver Proyecto</a>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG/Cap.png" alt="Proyecto 3">
+                    <h3>Zoo</h3>
+                    <p>Colaboré en el diseño y la estructura en Figma de una página web para un zoológico, enfocándome en la experiencia del usuario y la organización visual. Diseñé una interfaz intuitiva que permite a los visitantes explorar información sobre los animales, comprar boletos y reservar recorridos guiados de manera sencilla y atractiva.</p>
+                    <a href="https://www.figma.com/design/L7CAegweQssFqUV5awEbLs/Untitled?node-id=0-1&p=f&t=bxt8usUbi9Cc5kke-0" class="btn-proyecto" target="_blank">Ver Proyecto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formulario" class="formulario">
+        <div class="contenido-formulario">
+            <h2>Formulario de contacto</h2><br>
+            <form action="" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                </div>
     
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Tu email">
+                </div>
+    
+                <div class="form-group">
+                    <label for="telefono">Teléfono (Opcional)</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono">
+                </div>
+    
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje"></textarea>
+                </div>
+    
+                <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+
         <!-- footer -->
         <footer>
             <a href="#inicio" class="arriba">
